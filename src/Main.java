@@ -10,6 +10,6 @@ public class JvmComprehension { // подгрузка классов
 
     private static void printAll(Object o, int i, Integer ii) {//создание фрейма в стеке для printAll() Object, Integer - куча, o ii int i - стек i
         Integer uselessVar = 700;                   // 5 uselessVar - в стек, Integer - в кучу
-        System.out.println(o.toString() + i + ii);  // 6 новый фрейм в стеке, куда передаётся o i ii
+        System.out.println(o.toString() + i + ii);  // 6 новый фрейм в стеке, куда передаётся o i и ii
     }
 }
